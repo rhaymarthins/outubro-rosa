@@ -51,6 +51,40 @@ main {
   align-items: center;
   padding: 2rem 0;
 }
+main p {
+  width: 37rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 60%;
+}
+
+.sobre {
+  width: 100%;
+  height: 60vh;
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.conscientizacao {
+  width: 100%;
+  height: 50vh;
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.conscientizacao p {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  max-width: 64.8rem;
+}
 
 .dicas {
   width: 100%;
@@ -58,71 +92,6 @@ main {
   align-items: center;
   padding: 2rem 4rem;
   justify-content: space-between;
-}
-.dicas .text-box {
-  width: 60%;
-}
-.dicas .text-box p {
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: justify;
-}
-.dicas .image-box {
-  width: 35%;
-}
-.dicas .image-box img {
-  width: 100%;
-}
-
-.conscientizacao {
-  background-color: #FF69B4;
-  color: white;
-  flex-direction: row-reverse;
-}
-
-.conscientizacao {
-  width: 100%;
-  height: 100vh;
-  background-color: #FF69B4;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem 4rem;
-  flex-direction: row;
-}
-.conscientizacao .image-box {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.conscientizacao .image-box img {
-  width: 421px;
-  height: 234px;
-}
-.conscientizacao .text-box {
-  width: 50%;
-  display: flex;
-  align-items: center;
-}
-.conscientizacao .text-box p {
-  color: white;
-  font-size: 25px;
-  line-height: 2.5rem;
-  text-align: justify;
-  max-width: 648px;
-}
-
-.dicas {
-  background-color: #FFD9EC;
-  justify-content: space-evenly;
-}
-.dicas .dicas-container {
-  display: flex;
-  gap: 2rem;
-}
-.dicas .dicas-container figure img {
-  width: 15rem;
 }
 
 .footer {

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 // Reset
 * {
     margin: 0;
@@ -55,103 +54,64 @@ header {
     }
 }
 
-// Estilização do main
+// Main
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
+
+    p {
+        width: 37rem;
+        font-size: 1.5rem;
+        text-align: justify;
+        width: 60%;
+        // border: 2px solid black;
+    }
 }
 
+// Seção Sobre
+.sobre {
+    width: 100%;
+    height: 60vh;
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+}
 
+// Seção Conscientizacao
+.conscientizacao {
+    width: 100%;
+    height: 50vh;
+    background-color: #FF69B4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
 
+    p {
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: justify;
+        max-width: 64.8rem;
+    }
+
+}
+
+// Seção Dicas
 .dicas {
     width: 100%;
     display: flex;
     align-items: center;
     padding: 2rem 4rem;
     justify-content: space-between;
-
-    .text-box {
-        width: 60%;
-
-        p {
-            font-size: 2rem;
-            line-height: 3rem;
-            text-align: justify;
-        }
-    }
-
-    .image-box {
-        width: 35%;
-
-        img {
-            width: 100%;
-        }
-    }
 }
 
-.conscientizacao {
-    background-color: #FF69B4;
-    color: white;
-    flex-direction: row-reverse;
-}
-
-// Estilização da seção .conscientizacao
-.conscientizacao {
-    width: 100%;
-    height: 100vh;
-    background-color: #FF69B4;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem 4rem;
-    flex-direction: row; // Primeiro a imagem, depois o texto
-
-    .image-box {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 421px;
-            height: 234px;
-        }
-    }
-
-    .text-box {
-        width: 50%;
-        display: flex;
-        align-items: center;
-
-        p {
-            color: white;
-            font-size: 25px;
-            line-height: 2.5rem;
-            text-align: justify;
-            max-width: 648px;
-        }
-    }
-}
-
-.dicas {
-    background-color: #FFD9EC;
-    justify-content: space-evenly;
-
-    .dicas-container {
-        display: flex;
-        gap: 2rem;
-
-        figure {
-            img {
-                width: 15rem;
-            }
-        }
-    }
-}
-
-// Estilização do footer
+// Footer
 .footer {
     display: flex;
     justify-content: space-between;
@@ -179,6 +139,7 @@ main {
 
     .infos {
         text-align: center;
+        // border: 2px solid black;
 
         p {
             margin-bottom: 0.5rem;
@@ -188,6 +149,7 @@ main {
     .laco {
         img {
             width: 8rem;
+            // border: 2px solid black;
         }
     }
 }
